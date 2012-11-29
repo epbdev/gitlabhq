@@ -12,8 +12,9 @@ gem "rails", "3.2.9"
 
 # Supported DBs
 gem "sqlite3", group: :sqlite
-gem "mysql2", group: :mysql
+# gem "mysql2", group: :mysql
 gem "pg", group: :postgres
+gem "activerecord-postgresql-adapter", group: :postgres
 
 # Auth
 gem "devise", "~> 2.1.0"
